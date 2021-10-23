@@ -8,7 +8,7 @@ const lightSelected = 'red light';
 
 console.log('Light selected is: ' + lightSelected);
 
-//Si la luz es roja {
+if lightSelected === "red light";
     console.log('STOP!');
 //} Si no, es verde { 
 
