@@ -9,13 +9,13 @@ const sport = 'swiming';
 
 console.log('Actual sport: ' + sport); 
 
-/*Si sport es igual a swiming {
+if  (sport === swiming) {
     console.log('time to put on the swimsuit!');
-} Si sport es igual a riding {
+} else if (riding)  {
     console.log('Lets take a ride!' );
-} Sino es ninguno de los otros deportes {
+} else{
     console.log('run time!');
-}*/
+}
 
 /*
 output: 

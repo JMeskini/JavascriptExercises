@@ -3,7 +3,8 @@
 const numbers = [3,7,8,10,12,15,24,32,17,21,25,26];
 
 
-const result = //numbers. ( ). (( ) => curr*acc);
+let result = numbers.filter(value => value < 25 &&  value >10); 
+result = result.reduce((curr, acc ) => curr*acc);
 
 console.log(result);
 
@@ -11,3 +12,5 @@ console.log(result);
 output:
 385560000
 */
+
+// comentario alumnu (Bachir) : este ejeriocio me da otro resultado 

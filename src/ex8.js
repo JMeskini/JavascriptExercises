@@ -2,18 +2,19 @@
 
 const numbers = [0,7,4,6,13,24,21,678,987];
 
-/*numbers. (( ) => {
-    const lastValue = recoger el valor anterior;
-    Si el nuevo nuemro es mayor que el anteriot {
+numbers.sort((num, lastValue) => { 
+  
+    if (num > lastValue) {
         console.log( num + ' is bigger than ' + lastValue);
-    } Si no {
+   } else {
         console.log( num + ' is less than ' + lastValue);
     }
-} )*/
+  
+});
 
 /*
 output:
-
+ 
 0 is less than undefined
 7 is bigger than 0
 4 is less than 7

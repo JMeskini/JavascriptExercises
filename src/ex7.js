@@ -2,7 +2,7 @@
 
 const array = ['map', 'filter', 'find', 'some', 'index', 'reduce' ];
 
-//array.map( => console.log('value: ' +  + ', has index: ' + ));
+array.map((item, index) => {console.log('value: ' + item + ', has index: ' + index)});
 
 /* 
 output: 

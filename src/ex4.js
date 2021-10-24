@@ -4,7 +4,7 @@
 
 const list = [2,3,6,9,24,45,67,9923];
 
-const result = //list. (n => n > 20);
+const result = list.filter(value => value > 20);
 
 console.log(result);
 
