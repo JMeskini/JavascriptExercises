@@ -10,7 +10,7 @@ console.log('Light selected is: ' + lightSelected);
 
 if(lightSelected === redLight) {
     console.log('STOP!');
-/}else { 
+}else { 
 
     console.log('RUN!');
 }
